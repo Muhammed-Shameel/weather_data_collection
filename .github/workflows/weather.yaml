@@ -27,7 +27,7 @@ jobs:
       - name: Run script
         env:
           API_KEY: ${{ secrets.API_KEY }}
-        run: python weather.py
+        run: python weather_data/weather.py
 
       - name: Commit CSV
         run: |
