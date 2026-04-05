@@ -4,6 +4,7 @@ import time
 import os
 
 api_key = os.getenv("API_KEY")
+print("API KEY:", api_key)
 c = "tirur"
 
 
