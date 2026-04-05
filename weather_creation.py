@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import time
 
-api_key = "149a2890c31e44a9b6c60239260504"
+api_key = "API_KEY"
 c = "tirur"
 
 
@@ -23,7 +23,7 @@ for i in range(5):
   }
 
   all_data.append(weather_data)
-  time.sleep(8)
+  time.sleep(10)
 
 df = pd.DataFrame(all_data)
 
