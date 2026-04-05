@@ -13,6 +13,9 @@ all_data = []
 for i in range(5):
   url = f"http://api.weatherapi.com/v1/current.json?key={api_key}&q={c}"
   data = requests.get(url).json()
+  if "error" in data:
+    print("API Error:", data["error"]["message"])
+    exit()
   weather_data = {
       "City" : data['location']['name'],
       'Time' : data['location']['localtime'],
