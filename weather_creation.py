@@ -1,8 +1,9 @@
 import requests
 import pandas as pd
 import time
+import os
 
-api_key = "API_KEY"
+api_key = os.getenv("API_KEY")
 c = "tirur"
 
 
