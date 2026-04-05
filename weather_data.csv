@@ -1,3 +1,4 @@
 City,Country,Latitude,Longitude,Time,Day/Night,Temperature,Feels Like,Humidity,Pressure,Condition,Cloud Cover,Visibility_km,Wind Speed Km/H,Wind Degree,Wind Direction,Precipitation_mm,Will_it_rain,UV Index
 Tirur,India,10.9,75.9167,2026-04-05 13:38,Day,31.8,36.2,58,1009.0,Sunny,7,10.0,19.1,293,WNW,0.0,0,11.3
 Tirur,India,10.9,75.9167,2026-04-05 15:11,Day,31.3,35.4,58,1008.0,Sunny,5,10.0,19.8,294,WNW,0.0,0,5.0
+Tirur,India,10.9,75.9167,2026-04-05 16:08,Day,30.6,34.6,62,1008.0,Sunny,5,10.0,20.2,292,WNW,0.0,0,2.1
